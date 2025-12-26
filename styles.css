@@ -1,4 +1,8 @@
 /* Базові налаштування */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #1a1a1a;
     color: #aaa;
@@ -42,12 +46,24 @@ nav a:hover {
 
 /* Контейнери */
 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 37.5rem;
+
     background: #252525;
     padding: 2rem;
+    margin: 0 auto;
     border-radius: 0.5rem;
     border: 0.0625rem solid #444;
-    max-width: 37.5rem;
-    margin: 0 auto;
+}
+
+.box-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .container {
@@ -103,6 +119,7 @@ th {
 /* Кнопки та керування */
 #btn-joke {
     padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
 }
 
 /* Кнопка оновлення даних таблиці */
