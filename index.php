@@ -16,7 +16,7 @@
 
         <div class="box-wrapper">
             <div class="box">
-                <h1>Випадковий жарт</h1>
+                <h1 style="margin: 0.75rem 0;">Випадковий жарт</h1>
                 <div id="joke-area">Натисніть кнопку...</div>
                 <button onclick="loadJoke()" id="btn-joke">Отримати жарт</button>
             </div>
