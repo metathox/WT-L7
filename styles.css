@@ -1,0 +1,152 @@
+/* Базові налаштування */
+body {
+    background: #1a1a1a;
+    color: #aaa;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Навігаційна панель */
+nav {
+    background: #252525;
+    padding: 1rem;
+    border-bottom: 0.0625rem solid #444;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.link-active {
+    color: #8e16e8;
+}
+
+.link-active:hover {
+    color: #6b0bbf;
+}
+
+/* Контейнери */
+.box {
+    background: #252525;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #444;
+    max-width: 37.5rem;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#joke-area {
+    min-height: 3.825rem;
+    padding: 0.75rem 0;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background: #252525;
+    color: #fff;
+}
+
+th, td {
+    border: 0.0625rem solid #444;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: #007bff;
+}
+
+#filter-name {
+    background-color: #333;
+    color: #e4e4e7;
+    outline: none;
+    border: none;
+}
+
+#filter-aff {
+    background-color: #333;
+    color: #18aaaa;
+    font-size: 1rem;
+    font-weight: 200;
+    height: 2rem;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+/* Кнопки та керування */
+#btn-joke {
+    padding: 0.5rem 1rem;
+}
+
+/* Кнопка оновлення даних таблиці */
+#update-data {
+    padding: 0.5rem 1rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.25rem;
+}
+
+.affil-sect {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.controls button, input, label {
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    border: none;
+    height: 2rem;
+    font-weight: bold;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #218838;
+}
