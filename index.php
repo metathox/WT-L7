@@ -14,10 +14,12 @@
             <a href="table.php">Таблиця</a>
         </nav>
 
-        <div class="box">
-            <h1>Випадковий жарт</h1>
-            <div id="joke-area">Натисніть кнопку...</div>
-            <button onclick="loadJoke()" id="btn-joke">Отримати жарт</button>
+        <div class="box-wrapper">
+            <div class="box">
+                <h1>Випадковий жарт</h1>
+                <div id="joke-area">Натисніть кнопку...</div>
+                <button onclick="loadJoke()" id="btn-joke">Отримати жарт</button>
+            </div>
         </div>
 
         <script>
